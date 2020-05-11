@@ -1,0 +1,30 @@
+.card {
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    padding: 1rem;
+    box-shadow: 2px 2px rgb(124, 124, 124);
+    margin: 1rem;
+
+
+    .img {
+        border: solid 1px #ccc;
+        border-radius: 5px;
+        background-color: rgba(204, 204, 204, 0.3);
+
+    }
+
+    .info {
+        margin-top: 0.5rem;
+
+        p {
+            margin: .25rem 0 .25rem 0;
+        
+            span {
+                font-weight: 500;
+                margin-right: 5px;
+            }
+        }
+    }
+
+}
+

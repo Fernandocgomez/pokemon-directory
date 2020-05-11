@@ -1,0 +1,18 @@
+<div class="card" (click)="onClick()">
+
+    <div *ngIf="flip; else back">
+        <div class="img" >
+            <img [src]="imgPathFront" alt="">
+        </div>
+    </div>
+
+    <ng-template #back>
+        <div class="img" >
+            <img [src]="imgPathBack" alt="">
+        </div>
+    </ng-template>
+
+    <div class="info">
+        <p>{{ singlePokemon.name | titlecase }}</p>
+    </div>
+</div>

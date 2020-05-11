@@ -1,0 +1,25 @@
+header {
+    background-color: #ef5350;
+    padding: 0.5rem;
+    border-bottom: solid 1px #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    // height: 100%;
+    width: 50%;
+}
+
+nav {
+    padding-top: 1rem;
+}
+
+a {
+    margin: 1rem;
+    color: white;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
